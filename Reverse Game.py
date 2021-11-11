@@ -53,32 +53,4 @@ For first test case, The rotation will be like this:
 0 1 2 -> 2 1 0 -> 2 0 1 -> 2 0 1
 So, Index of 1 will be 2.
 
-Language
-Python 3
-
-More
-8910111213141516171819202122232425262728293031323334
-if __name__ == '__main__':
-    t = int(input().strip())
-    for elements in range(t):
-        first_multiple_input = input().rstrip().split()
-        
-        n = int(first_multiple_input[0])
-        k = int(first_multiple_input[1])
-        list1 = []
-        for val in range(n):
-            list1.append(val)
-…        
-    
-    
-
-Line: 12 Col: 1
-
-Submit Code
-
-Run Code
-
-Upload Code as File
-
-Test against custom input
 '''
